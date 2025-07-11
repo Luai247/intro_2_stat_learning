@@ -9,4 +9,7 @@ output: html_document
 df <- read.csv("datasets/pizza_delivery.csv")
 
 head(df)
+
+# fix(df)
+# view(df)
 ```
