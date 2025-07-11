@@ -1,0 +1,12 @@
+---
+title: "Ch_1"
+author: "Luai Alharbi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r read data}
+df <- read.csv("datasets/pizza_delivery.csv")
+
+head(df)
+```
